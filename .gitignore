@@ -1,0 +1,11 @@
+# SublimeText files
+/*.sublime-*
+
+# CMake files
+/CMakeCache.txt
+/CMakeFiles/
+/Makefile
+/cmake_install.cmake
+
+# Binary files
+example
