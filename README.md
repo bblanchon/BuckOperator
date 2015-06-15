@@ -4,7 +4,7 @@ The C++ "buck" operator
 An suggestion for a more expressive way of returning multiple values from a function.
 Defines a new syntax, using the dollar sign, to bind multiple values together.
 
-**SAFETY WARNING**: When I showed that to my boss, he clearly stated that this was one of the stupidest idea one could ever have, and that no C++ would want to use that.
+**WARNING**: This is probably a stupid idea, use this at your own risks.
 
 #### Example: declaring a function
 
