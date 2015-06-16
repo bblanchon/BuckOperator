@@ -1,7 +1,7 @@
 The C++ "buck" operator
 =======================
 
-An suggestion for a more expressive way of returning multiple values from a function.
+A suggestion for a more expressive way of returning multiple values from a function.
 Defines a new syntax, using the dollar sign, to bind multiple values together.
 
 **WARNING**: This is probably a stupid idea, use this at your own risks.
