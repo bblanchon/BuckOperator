@@ -4,13 +4,18 @@
 # A stupid idea of Benoit Blanchon in 2015
 # MIT License
 
-project(buck_operator)
+cmake_minimum_required(VERSION 3.1)
 
-add_compile_options(-std=c++11)
+project(BuckOperator)
 
 add_executable(example 
-	example.cpp
-	#buck.cpp
 	buck.hpp
+	example.cpp
 )
 
+target_compile_features(example 
+	PUBLIC
+	cxx_rvalue_references
+	cxx_variadic_macros 
+	cxx_variadic_templates
+)
