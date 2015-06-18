@@ -9,3 +9,13 @@
 
 # Binary files
 example
+
+# Visual Studio
+*.vcxproj
+*.vcxproj.filters
+*.opensdf
+*.sdf
+*.sln
+/Debug/
+/Win32/
+/example.dir/
