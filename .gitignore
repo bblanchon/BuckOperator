@@ -16,6 +16,7 @@ example
 *.opensdf
 *.sdf
 *.sln
+*.suo
 /Debug/
 /Win32/
 /example.dir/

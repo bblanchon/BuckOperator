@@ -27,5 +27,9 @@ int main() {
   cout << "User ID: " << id << endl;
   cout << "User Name: " << name << endl;
 
+  // You can also ignore a value, just omit the variable
+  $(, name) = get_current_user();
+  cout << "User Name: " << name << endl;
+
   return 0;
 }

@@ -1,7 +1,7 @@
 The C++ "buck" operator
 =======================
 
-A suggestion for a more expressive way of returning multiple values from a function.
+Syntactic sugar for a more expressive way of returning multiple values from a function.
 Defines a new syntax, using the dollar sign, to bind multiple values together.
 
 **WARNING**: This is probably a stupid idea, use this at your own risks.
@@ -21,9 +21,14 @@ Defines a new syntax, using the dollar sign, to bind multiple values together.
 
 	$(id, name) = get_username();
 
+#### Example: ignoring some values
+
+    string name;
+
+    $(, name) = get_username();
+
 ## Remarks:
 
 * it requires C++11
-* it is just a wrap around `std::tie` and `std::tupple`
-* it requires that the compiler accept `$` as a valid class name
-* it requires that it also allow a `$` macro
+* it's just a wrapper on top of `std::tuple`
+* it triggers the GCC warning `dollar-in-identifier-extension`
